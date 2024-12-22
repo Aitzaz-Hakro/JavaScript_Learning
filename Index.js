@@ -1,5 +1,5 @@
 console.log('Hello World!');
-alert("GIve Acess to Photos");
+// alert("GIve Acess to Photos");
 console.warn("This is a warning");
 console.error("This is an error");
 
@@ -29,4 +29,8 @@ var str2= 'this is a string 2';
     var arr=[2,"aitzaz", 4,6,3,66,2];
    //  console.log(arr);
    console.log(arr[1]);
+
+   var und=undefined;
+   var n=null;
    
+
