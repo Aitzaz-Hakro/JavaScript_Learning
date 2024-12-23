@@ -1,11 +1,12 @@
 console.log('Hello World!');
 // alert("GIve Acess to Photos");
+
 console.warn("This is a warning");
 console.error("This is an error");
 
 // variables in JavaSript
 var number1 = 34;
-var number2 = 56;
+var number2 = 56
 // console.log(number1 + number2);
 
 var fnum1= 30.5;
