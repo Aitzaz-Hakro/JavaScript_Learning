@@ -34,4 +34,4 @@ var str2= 'this is a string 2';
    var und=undefined;
    var n=null;
    
-
+   console.log(n)
