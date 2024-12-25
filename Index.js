@@ -29,12 +29,18 @@ var str2= 'this is a string 2';
    //  Array in Javasript
     var arr=[2,"aitzaz", 4,6,3,66,2];
    //  console.log(arr);
-   console.log(arr[1]);
+   // console.log(arr[1]);
 
    var und=undefined;
-   var n=null;
+   var n="aitzaz";
+   
    
    // ";" is optional in JavaSript   
    console.log(n)
+   console.log(typeof n)
 
-   console.log()
+   var num1="4"-"2"+"4";
+   // output is 24
+   console.log(num1);
+    
+   document.write("<h1>"+ arr[1]+ "</h1>")
