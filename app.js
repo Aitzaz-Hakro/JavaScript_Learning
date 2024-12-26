@@ -48,7 +48,7 @@ var str2= 'this is a string 2';
    // prompt is used to take input from user
    // var Name=prompt("Enter your name");
    // console.log(Name);
-   var gender= prompt("Enter your Gender: ");
+   // var gender= prompt("Enter your Gender: ");
    if(gender=="Male" ||gender=="male"){
       console.log("Welcome Sir");
       document.write("<h1>Hello Sir </h1>");
