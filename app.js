@@ -44,3 +44,21 @@ var str2= 'this is a string 2';
    console.log(num1);
     
    document.write("<h1>"+ arr[1]+ "</h1>")
+
+   // prompt is used to take input from user
+   // var Name=prompt("Enter your name");
+   // console.log(Name);
+   var gender= prompt("Enter your Gender: ");
+   if(gender=="Male" ||gender=="male"){
+      console.log("Welcome Sir");
+      document.write("<h1>Hello Sir </h1>");
+   }
+   else if(gender=="female"||gender=="Female"){
+      console.log("Welcome Mam");
+   }
+   Swal.fire({
+      title: "Drag me!",
+      icon: "success",
+      draggable: true
+    });
+
