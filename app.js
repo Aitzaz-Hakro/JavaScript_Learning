@@ -63,6 +63,18 @@
    //  });
 
 
-    var  name=prompt("Enter your name: ") || "Not Entered";
-    console.log(name);
+   //  var  name=prompt("Enter your name: ") || "Not Entered";
+   //  console.log(name);
     
+    var arrayy=["Aitzaz", "Nabeel", true, 45 ];
+
+    arrayy[4]="ALI";
+
+      console.log(arrayy);
+   //  console.log(arrayy.length)
+ 
+    document.write("<h1>"+ arrayy+ "</h1>");
+    arrayy.pop();
+    document.write("<br/><h1><h1>Popped one element"+ arrayy+ "<br/></h1></h1>");
+    
+   //  document.write("<h1>"+ arrayy[0]+ "</h1>");

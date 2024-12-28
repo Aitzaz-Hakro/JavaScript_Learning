@@ -18,3 +18,18 @@ Boolean(null); //false
 Boolean(NaN); //false
 Boolean(false); //false
 
+var Array2=["abc", "def","hello","Aitzaz"];
+console.log(Array2)
+Array2.shift() //removes the first element of the array
+// console.log(Array2)
+Array2.unshift("abc") //adds the element at the start of the array
+// console.log(Array2)
+
+// Splice Method : Can remove element from any position and can add element at any position
+Array2.splice(0,2,"hello"); //removes the first element of the array
+console.log(Array2)
+var copyarray= Array2.splice(0,3) // it gives the whole array
+console.log(copyarray)
+
+
+
