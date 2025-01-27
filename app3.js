@@ -25,6 +25,7 @@ var CitiesAdd=Cities.splice(8,2,"Faisalabad","Quetta") ;
 // if the index is available then splice will replace the value of that index with the given value
 
 
+
 // var CitiesCopy=Cities.slice(1,2,"Faisalabad","Quetta") ;
 
 console.log("Cities Added==>",CitiesAdd);
