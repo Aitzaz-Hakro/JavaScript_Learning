@@ -1,5 +1,5 @@
 // console.log('Hello World!');
-// // alert("GIve Acess to Photos");
+// // alert("Give Acess to Photos");
 
 // console.warn("This is a warning");
 // console.error("This is an error");
@@ -8,7 +8,8 @@
 // var number1 = 34;
 // var number2 = 56
 // // console.log(number1 + number2);
-
+  
+// let is used to update the value of any variable
 // var fnum1= 30.5;
 // var fnum2 = 45.5;
 
@@ -56,6 +57,9 @@
    // else if(gender=="female"||gender=="Female"){
    //    console.log("Welcome Mam");
    // }
+
+
+   //  customized pop up 
    // Swal.fire({
    //    title: "Drag me!",
    //    icon: "success",
