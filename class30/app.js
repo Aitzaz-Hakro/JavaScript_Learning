@@ -30,5 +30,4 @@ var Num=2324;
 
 // controlling the length of decimal values
 var decii=23.334;
-
 console.log(decii.toFixed(2));
