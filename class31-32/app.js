@@ -50,13 +50,29 @@ var anydate = new Date("2005-05-12");
 var daynames = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 console.log(daynames[anydate.getDay()]);
 
- var dob= prompt("Enter your Date of Birth(yyyy-mm-dd)");
-
+//  var dob= prompt("Enter your Date of Birth(yyyy-mm-dd)");
+var dob="2005-05-12";
    var dobdate= new Date(dob);
    var todaydate= new Date();
    var diff= todaydate.getTime()-dobdate.getTime();
 
-   var diffyear= diff/(1000*60*60*24*12);
+  //  a day has 86400000 milliseconds
+   var diffyear= (diff/(1000*60*60*24*365));
 
-   console.log(diffyear);
+  //  console.log(diffyear);
 
+
+
+// *********************moment.js library for date and time**********************8
+  var date=moment().format("D dddd MMMMM hh:m A");
+  // console.log(date);
+  // console.log(date.format("MMM Do YYYY"));
+  // console.log(date.format(""));
+
+  var a = moment(new Date("2005-05-12 20:00"));
+  var b= moment(new Date());
+
+  // console.log(b.diff(a,"years"));
+  // console.log(a.fromNow());
+
+var
