@@ -1,3 +1,8 @@
+// ************* It Includes the following topics***************
+// *************  1)Random Number Generator      ***************
+// *************  2)Moment.js Library            ***************
+
+
 // var name = "Aitzaz Hassan";
 
 // console.log(name.split(" "));
@@ -48,7 +53,7 @@ var date= new Date();
 var anydate = new Date("2005-05-12");
 
 var daynames = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-console.log(daynames[anydate.getDay()]);
+// console.log(daynames[anydate.getDay()]);
 
 //  var dob= prompt("Enter your Date of Birth(yyyy-mm-dd)");
 var dob="2005-05-12";
@@ -75,4 +80,7 @@ var dob="2005-05-12";
   // console.log(b.diff(a,"years"));
   // console.log(a.fromNow());
 
-var
+var date2= moment().format("h:mm:ss D/M/yyyy A ");
+console.log(date2);
+
+ 
