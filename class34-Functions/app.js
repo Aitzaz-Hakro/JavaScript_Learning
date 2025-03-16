@@ -22,7 +22,7 @@ function submitForm(){
   var email= document.getElementById('email');
 
   console.log('Name: ' + name.value + '\n' + 'Email: ' + email.value);
-//   document.getElementById('result').innerHTML = 'Name: ' + name.value + '<br>' + 'Email: ' + email.value;
+  document.getElementById('result').innerHTML = 'Name: ' + name.value + '<br>' + 'Email: ' + email.value;
     document.getElementById('name').value = '';
     document.getElementById('email').value = '';
   
