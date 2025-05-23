@@ -1,4 +1,3 @@
-
 // var arr= [3,5];
 // function myPush(value) {
 //      arr[arr.length] =value;
@@ -19,19 +18,26 @@
 //         }
 //         // console.log(arr);
 //     }
-    
+
 //  console.log("Before Pop: ", arr);
 //  myPop();
 //  console.log("After Pop: ", arr);
 
-
-
- function PrintName(name){
-
-    return name;
+function PrintName(name) {
+  return name;
 }
 
-
-
 // console.log(PrintName( prompt("Enter your name")));
- 
+
+// function CalculateAge(birthyear, name) {
+//    var age = 2025 - birthyear;
+//   if (age) {
+//     var agemsg = "hello " + name + " you are " + age + " years old";
+//     return agemsg;
+//   }
+// }
+
+// var namee = prompt("Enter your name");
+// var birthyear = prompt("Enter your birth year");
+// alert(CalculateAge(birthyear, namee));
+
