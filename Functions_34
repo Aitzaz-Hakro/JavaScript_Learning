@@ -1,0 +1,37 @@
+
+// var arr= [3,5];
+// function myPush(value) {
+//      arr[arr.length] =value;
+//     //  console.log(arr);
+
+//     }
+
+//     myPush(5);
+//     myPush(3);
+//     myPush(7);
+
+//     function myPop() {
+//         for(var i=0; i<arr.lenth; i++){
+//             if(i === arr.length - 1){
+//                 arr.pop();
+//                 break;
+//             }
+//         }
+//         // console.log(arr);
+//     }
+    
+//  console.log("Before Pop: ", arr);
+//  myPop();
+//  console.log("After Pop: ", arr);
+
+
+
+ function PrintName(name){
+
+    return name;
+}
+
+
+
+// console.log(PrintName( prompt("Enter your name")));
+ 
