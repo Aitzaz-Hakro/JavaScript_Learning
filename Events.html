@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="event.css">
 </head>
 <body>
-        <h1 >Cards Game </h1>
+    
+    <div class="row" style="display: grid; gap: 50px; ">
+            <h1 >Cards Game </h1>
+<div style="display: flex; gap: 40px; height: 60px;">
+    <img class="card" src="sapiens.png" id="card1" onmouseenter="FlipCard(this)" onmouseout="change(this)">
+    <img class="card" src="sapiens.png" id="card2" onmouseenter="FlipCard(this)"onmouseout="change(this)">
+    <img class="card" src="sapiens.png" id="card3" onmouseenter="FlipCard(this)"onmouseout="change(this)">
 
-        <div class="row" style="display: flex; gap: 20px; ">
-        
-            <img class="card1" src="" id="card" onmouseover="FlipCard(this)">
-            <img class="card2" src="" id="card" onmouseover="FlipCard(this)">
-            <img class="card3" src="" id="card" onmouseover="FlipCard(this)">
+</div>
 
          
         </div>
    
+        <script src="events.js"></script>
 </body>
-</html>
+</html> 

@@ -1,4 +1,8 @@
 body{
+    background: url("the_edge_of_the_forest___gray_terminal__2_by_sheylog_ddbxouz-pre.png");
+    background-position: ;
+    background-size: cover;
+    background-repeat: no-repeat;
    display: flex;
    /* align-items: center; */
    justify-content: center;
@@ -7,13 +11,13 @@ body{
 }
 
 .card{
+    
     border-radius: 10px;
-    width: 100px; 
-    transition: 1s;
+    width: 70px; 
+    transition: 2s;
+
 }
 
 .card:hover{
-
-    
-    transform: rotateY(180deg);
+     transform: rotateY(180deg);
 }
