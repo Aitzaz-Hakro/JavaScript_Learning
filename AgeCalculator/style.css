@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127, 127, 255)
+    
+}
+
+.container{
+  
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    width: 22rem;
+    height: 250px;
+    border: 2px solid #0c0b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.container form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result{
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+      margin-bottom: 20px; 
+      color: rgb(241, 241, 241);
+       font-weight: bolder;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+input[type="date"]{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: #d6d332;
+    height: 1.9rem;
+    width: 19rem;
+    border: none;
+    border-radius: 10px;
+    transition:  0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: #b0b000;
+    cursor: pointer;
+    transform: scale(.95);
+}
