@@ -29,7 +29,6 @@ body{
     margin-bottom: 2rem;
     width: 40%;
     height: auto;
-    border: 2px solid white;
 }
 .quoteDisplay:hover{
     opacity: 100%;
