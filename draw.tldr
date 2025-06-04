@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": -2349.9999357440975,
-			"y": 745.1630098063799,
-			"lastActivityTimestamp": 1749024076266,
+			"x": -2457.321009446076,
+			"y": 841.6713644984396,
+			"lastActivityTimestamp": 1749060631113,
 			"meta": {}
 		},
 		{
@@ -307,9 +307,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 2909.6646562395076,
-			"y": -538.9072615203559,
-			"z": 1.6581356051504237,
+			"x": 3046.0697875133374,
+			"y": -341.5074720200023,
+			"z": 0.7337594846789581,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -474,11 +474,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:94JRNZ7cid5s94CxJiQrP",
-				"shape:nfW2q9F99EvT989-FglBU",
-				"shape:W9YaX6-WCwv4HJDftyTjo"
+				"shape:zq6zcJp9f889MTCSqlQa7"
 			],
-			"hoveredShapeId": "shape:94JRNZ7cid5s94CxJiQrP",
+			"hoveredShapeId": "shape:zq6zcJp9f889MTCSqlQa7",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -1440,18 +1438,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "oval",
-				"tldraw:size": "s",
-				"tldraw:font": "sans",
-				"tldraw:color": "red",
-				"tldraw:dash": "draw",
-				"tldraw:fill": "solid",
-				"tldraw:horizontalAlign": "middle",
-				"tldraw:verticalAlign": "middle",
-				"tldraw:arrowheadEnd": "triangle",
-				"tldraw:textAlign": "start"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -1465,7 +1452,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1108,
+				"w": 525,
 				"h": 652
 			},
 			"insets": [
@@ -1483,9 +1470,9 @@
 			"isFocused": true,
 			"devicePixelRatio": 1,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
-			"isChangingStyle": true,
+			"isChangingStyle": false,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
