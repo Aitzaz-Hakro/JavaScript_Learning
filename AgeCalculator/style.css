@@ -7,10 +7,11 @@ body{
     box-sizing: border-box;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(127, 127, 255)
-    
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: rgb(127, 127, 255) */
+    background: url(../Media/a-realistic-icon-of-a-young-boy-holding-a-banner-i.png);
+    background-size: cover;
 }
 
 .container{
