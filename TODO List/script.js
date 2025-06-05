@@ -15,6 +15,15 @@ inputBtn.addEventListener("click",AddInItemList);
 clearAll.addEventListener("click",ClearAllItems);
 itemDest.addEventListener("click",DeleteOneItem);
 
+
+inputEL.addEventListener("keypress",KeyEvent);
+
+function KeyEvent(e){
+  if(e.key==="Enter"){
+    addItemm();
+    AddInItemList();
+}
+}
 function addItemm(){
     tempInput= inputEL.value;
    inputEL.value="";
@@ -34,9 +43,6 @@ function AddInItemList(){
                          </div>
                          </li>`;
            clearAll.style.visibility="visible"; 
-        //    storing each item into and object with key
-          lastItem[itemcount]= itemDest.innerHTML;
-          console.log(lastItem);
        }
     itemcount++;
 }
