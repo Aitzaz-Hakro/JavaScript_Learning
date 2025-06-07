@@ -1,67 +1,66 @@
-var inputEL= document.getElementById("iteminput");
-var inputBtn= document.getElementById("additem");
-var itemDest= document.getElementById("itemlist");
-var clearOne= document.getElementById("done");
-var clearAll= document.getElementById("clearAll");
-var clearAllIt= document.querySelector(".container");
-
-
+var inputEL = document.getElementById("iteminput");
+var inputBtn = document.getElementById("additem");
+var itemDest = document.getElementById("itemlist");
+var clearOne = document.getElementById("done");
+var clearAll = document.getElementById("clearAll");
+var clearAllIt = document.querySelector(".container");
 
 var tempInput;
 var itemcount = 0;
-var lastItem={};
-inputBtn.addEventListener("click",addItemm);
-inputBtn.addEventListener("click",AddInItemList);
-clearAll.addEventListener("click",ClearAllItems);
-itemDest.addEventListener("click",DeleteOneItem);
+var lastItem = {};
+inputBtn.addEventListener("click", addItemm);
+inputBtn.addEventListener("click", AddInItemList);
+clearAll.addEventListener("click", ClearAllItems);
+itemDest.addEventListener("click", DeleteOneItem);
 
+inputEL.addEventListener("keypress", KeyEvent);
 
-inputEL.addEventListener("keypress",KeyEvent);
-
-function KeyEvent(e){
-  if(e.key==="Enter"){
+function KeyEvent(e) {
+  if (e.key === "Enter") {
     addItemm();
     AddInItemList();
+  }
 }
+function addItemm() {
+  tempInput = inputEL.value;
+  inputEL.value = "";
 }
-function addItemm(){
-    tempInput= inputEL.value;
-   inputEL.value="";
 
-}
-
-function AddInItemList(){
-    
-       if(tempInput===""){
-           return;
-       }
-       else{
-           itemDest.innerHTML +=` <li class="hello${itemcount}">${tempInput}
+function AddInItemList() {
+  if (tempInput === "") {
+    return;
+  } else {
+    itemDest.innerHTML += ` <li class="hello${itemcount}">${tempInput}
                          <div> 
                          <img src="../Media/circle-xmark.svg" class="iconn1" id="done" alt="">
                          <img src="../Media/circle-check.svg" class="iconn" id="done" alt="">
                          </div>
                          </li>`;
-           clearAll.style.visibility="visible"; 
-       }
-    itemcount++;
+    clearAll.style.visibility = "visible";
+  }
+  itemcount++;
 }
 
-function DeleteOneItem(event){           
-           if (event.target.classList.contains("iconn1") ||event.target.classList.contains("iconn")) { // iconn1 is your delete icon
-        const li = event.target.closest("li");
-        if (li) {
-            li.remove();
-        }
-        // Optionally hide clearAll if no items left
-        if (itemDest.children.length === 0) {
-            clearAll.style.visibility = "hidden";
-        }
-    } 
-
+function DeleteOneItem(event) {
+  if (
+    event.target.classList.contains("iconn1") ||
+    event.target.classList.contains("iconn")
+  ) {
+    // iconn1 is your delete icon
+    const li = event.target.closest("li");
+    if (li) {
+      li.remove();
+    }
+    // Optionally hide clearAll if no items left
+    if (itemDest.children.length === 0) {
+      clearAll.style.visibility = "hidden";
+    }
+  }
 }
 
-function ClearAllItems(){
-    itemDest.innerHTML="";  
-    clearAll.style.visibility="hidden"; 
+function ClearAllItems() {
+  itemDest.innerHTML = "";
+  clearAll.style.visibility = "hidden";
 }
+
+figma.com/design/w9WPhB3gzblxlzRUeYr2Gx/10-HTML-%2B-CSS-PROJECT?node-id=76-77&t=fRMP0voAjlNKPCk3-0
