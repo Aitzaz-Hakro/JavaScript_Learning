@@ -40,7 +40,6 @@ function AddInItemList() {
   }
   itemcount++;
 }
-
 function DeleteOneItem(event) {
   if (
     event.target.classList.contains("iconn1") ||
@@ -57,7 +56,6 @@ function DeleteOneItem(event) {
     }
   }
 }
-
 function ClearAllItems() {
   itemDest.innerHTML = "";
   clearAll.style.visibility = "hidden";
