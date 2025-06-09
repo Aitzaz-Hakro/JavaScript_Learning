@@ -60,5 +60,3 @@ function ClearAllItems() {
   itemDest.innerHTML = "";
   clearAll.style.visibility = "hidden";
 }
-
-figma.com/design/w9WPhB3gzblxlzRUeYr2Gx/10-HTML-%2B-CSS-PROJECT?node-id=76-77&t=fRMP0voAjlNKPCk3-0
