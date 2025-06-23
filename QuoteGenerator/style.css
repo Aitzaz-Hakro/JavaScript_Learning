@@ -1,70 +1,65 @@
-body{
-     font-family: 'Courier New', Courier, monospace ;
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
     display: flex;
+    align-items: center;
     justify-content: center;
-    background:  linear-gradient(100deg, rgba(36,198,220,0.9), rgba(81,74,157,0.9));
-    background-repeat: no-repeat;
-    
+    font-family: 'Montserrat', sans-serif;
 }
-.container{
-    text-transform: capitalize;
+
+.container {
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    padding: 3rem 2rem;
+    text-align: center;
+    max-width: 400px;
     width: 100%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-     animation: scale-in-top 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@keyframes scale-in-top {
-  0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-    opacity: 1;
-  }
-} 
-
-.quoteDisplay{
-    
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-    opacity: 30%;
-    font-size: 2.5rem;
-    /* padding-top: 2rem; */
-    align-items: center;
-    text-align: center;
+.title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fff;
     margin-bottom: 2rem;
-    width: 40%;
-    height: auto;
+    display: block;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #fff2;
+    padding-bottom: 1rem;
 }
-.quoteDisplay:hover{
-    opacity: 100%;
-    transition: opacity 0.3s ease-in-out;
+
+.quoteDisplay {
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 2rem 0;
+    min-height: 60px;
+    transition: opacity 0.3s;
 }
-.quoteButton{
-    width: 200px;
-    height: 50px;
-    background-color: #4CAF50; /* Green */
-    color: white;
+
+.quoteButton {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    color: #fff;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
     cursor: pointer;
-    font-size: 16px;
+    box-shadow: 0 4px 14px rgba(229,46,113,0.2);
+    transition: background 0.3s, transform 0.2s;
 }
-.quoteButton:hover{
-    background-color: #45a049; /* Darker green */
-    transition: background-color 0.3s ease-in-out;
+.quoteButton:hover {
+    background: linear-gradient(90deg, #e52e71, #ff8a00);
+    transform: scale(1.05);
+}
+
+footer p {
+    color: #fff8;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    letter-spacing: 1px;
 } 
